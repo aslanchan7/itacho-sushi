@@ -1,0 +1,49 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    z-index: 2;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    border-bottom: 3px solid #D7C4C6;
+    margin-bottom: 30px; /* TEMP */
+    flex-direction: column;
+
+    margin: 0 0.26vw 0.36vw;
+}
+
+.buttonTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.button span {
+    color: #8B292B;
+    font-family: var(--font-gabarito);
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+
+.arrow {
+    margin-left: auto;
+    width: 1.35vw;
+}
+
+.content {
+    width: 47.7vw;
+    padding: 0.73vw 0;
+    text-align: left;
+    white-space: pre-line;
+
+    color: #404040;
+    font-family: var(--font-gabarito);
+    font-size: 1.15vw;
+    line-height: normal;
+}

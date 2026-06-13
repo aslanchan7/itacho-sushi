@@ -1,0 +1,9 @@
+.star {
+    width: 2.45vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.73vw;
+}

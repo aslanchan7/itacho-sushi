@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 35.5vw;
+    z-index: 2;
+}
+
+.titleImage {
+    width: 35.5vw;
+}
+
+.mealNameText {
+    position: absolute;
+    width: 9.375vw;
+    align-self: center;
+    margin-left: 1.09vw;
+    margin-right: auto;
+}
+
+.mealTimeText {
+    position: absolute;
+    margin-left: 14.2vw;
+    margin-right: 2.55vw;
+    align-self: center;
+
+    color: #404040;
+    text-align: center;
+    font-family: var(--font-century-gothic);
+    font-size: 2.19vw;
+    letter-spacing: -0.044vw;
+}
+
+.tierCostWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.77vw;
+    margin-bottom: 0.42vw;
+}
+
+.tierText {
+    padding-left: 0.42vw;
+ 
+    color: #404040;
+    font-family: var(--font-gabarito);
+    font-size: 1.875vw;
+    font-weight: 600;
+}
+
+.costText {
+    margin-left: auto;
+    padding-right: 0.42vw;
+
+    color: #404040;
+    text-align: center;
+    font-family: var(--font-century-gothic);
+    font-size: 1.875vw;
+    letter-spacing: -0.038vw;
+    text-decoration-line: underline;
+}
+
+.description {
+    margin: 0 0.42vw 3.6vw;
+
+    color: #171717;
+    font-family: var(--font-syne);
+    font-size: 1.45vw;
+}
+
+.viewMenuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.viewMenuContainer p {
+    position: absolute;
+    margin-left: 23vw;
+    
+    color: white;
+    font-family: var(--font-gabarito);
+    font-size: 1.61vw;
+    font-weight: 700;
+}
+
+.viewMenuButton {
+    width: 16.7vw;
+    margin-left: auto;
+}

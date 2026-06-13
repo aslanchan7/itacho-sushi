@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 20vw;
+}
+
+.viewMenuButton {
+    margin-top: 3%;
+}
+
+.buttonContents {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewMenuText {
+    margin-right: 0.5vw;
+    color: white;
+    font-family: var(--font-gabarito);
+    font-size: 2.2vw;
+    font-weight: 700;
+    filter: drop-shadow(0 0.2vw 0.2vw rgba(0, 0, 0, 0.25));
+}
+
+.linkIcon {
+    width: 2.2vw;
+    margin-top: 1.5%;
+}

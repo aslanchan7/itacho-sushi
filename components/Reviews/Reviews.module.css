@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #FEFBF6; */
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3.18vw;
+    z-index: 2;
+
+    background: linear-gradient(180deg, #F9F2EA 0%, #FEFBF6 25%);
+}
+
+.container h3 {
+    color: #303131;
+    font-family: var(--font-gabarito);
+    font-size: 2.7vw;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.reviewCardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.94vw;
+    margin-bottom: 2.76vw;
+    z-index: 2;
+}
+
+.reviewCardColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15vw;
+    z-index: 2;
+}
+
+.decorationStroke {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 235vh;
+}

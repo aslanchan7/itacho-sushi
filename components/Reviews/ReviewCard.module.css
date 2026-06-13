@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F2EA;
+    border-radius: 0.52vw;
+
+    padding: 1.25vw 0.83vw;
+}
+
+.dimensions0 {
+    width: 20.9vw;
+    height: 17.8vw;
+}
+
+.dimensions1 {
+    width: 17.1vw;
+    height: 12.8vw;
+}
+
+.dimensions2 {
+    width: 17.1vw;
+    height: 22.7vw;
+}
+
+.name {
+    margin-top: 1.04vw;
+    margin-bottom: 0.34vw;
+
+    color: #404040;
+    font-family: var(--font-gabarito);
+    font-size: 1.51vw;
+    font-weight: 600;
+}
+
+.description {
+    color: #343434;
+    font-family: var(--font-syne);
+    font-size: 1.2vw;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
