@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: row;
     width: 20vw;
+    z-index: 2;
 }
 
 .viewMenuButton {

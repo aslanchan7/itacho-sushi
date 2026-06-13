@@ -5,6 +5,7 @@
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 3.18vw;
+    overflow: hidden;
 }
 
 .container h3 {
@@ -26,5 +27,5 @@
     position: absolute;
     width: 100%;
     left: 0;
-    top: 180vh;
+    transform: translateY(-8vw);
 }

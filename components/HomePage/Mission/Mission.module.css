@@ -35,5 +35,6 @@
     position: absolute;
     width: 38.6vw;
     right: 0;
-    top: 97vh;
+    /* top: 97vh; */
+    transform: translateY(-7vw);
 }

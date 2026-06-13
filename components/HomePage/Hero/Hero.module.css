@@ -7,6 +7,15 @@
     background-color: black;
 }
 
+.heroSection::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
 .heroBgImage {
     position: absolute;
     object-fit: cover;
@@ -25,7 +34,7 @@
     position: absolute;
     align-self: flex-end;
     margin-bottom: 20.8vh;
-    z-index: 1;
+    z-index: 2;
 }
 
 .movingArrow {
@@ -33,5 +42,5 @@
     margin-bottom: 9.2vh;
     position: absolute;
     width: 2.9vw;
-    z-index: 1;
+    z-index: 2;
 }

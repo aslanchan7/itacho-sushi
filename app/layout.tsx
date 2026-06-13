@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Gabarito, Geist, Geist_Mono, Syne, Gothic_A1 } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local';
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 const gabarito = Gabarito({ subsets: ['latin'], variable: '--font-gabarito' })
 
@@ -47,7 +49,11 @@ export default function RootLayout({
         h-full antialiased`
       }
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

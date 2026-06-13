@@ -1,5 +1,5 @@
 import HomeScreenLine from '../HomeScreenLine'
-import Accordion from '../Misc/Accordion'
+import Accordion from '../../Misc/Accordion'
 import styles from './SpecialOffer.module.css'
 
 export default function SpecialOffer() {

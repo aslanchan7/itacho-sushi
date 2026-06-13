@@ -6,6 +6,13 @@ import Image from 'next/image'
 export default function MenuOptions() {
     return (
         <section className={styles.container}>
+            <Image 
+                src={'/images/menuOptions/menu-brush-stroke-decoration.svg'}
+                alt=''
+                width={1000}
+                height={1000}
+                className={styles.brushStroke}
+            />
             <h3>MENU OPTIONS</h3>
             <HomeScreenLine />
             <div className='flex flex-row'>
@@ -33,14 +40,6 @@ export default function MenuOptions() {
                     color='black'
                 />
             </div>
-
-            <Image 
-                src={'/images/menuOptions/menu-brush-stroke-decoration.svg'}
-                alt=''
-                width={1000}
-                height={1000}
-                className={styles.brushStroke}
-            />
         </section>
     )
 }
