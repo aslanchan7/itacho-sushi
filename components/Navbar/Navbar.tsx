@@ -15,7 +15,7 @@ export default function Navbar() {
 
             <ul className={styles.list}>
                 <li><Link href={'/'}>HOME</Link></li>
-                <li>MENU</li>
+                <li><Link href={'/menu'}>MENU</Link></li>
                 <li><Link href={'/about'}>ABOUT</Link></li>
                 <li><Link href={'/contact-us'}>CONTACT US</Link></li>
             </ul>
